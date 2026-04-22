@@ -1,0 +1,36 @@
+=============================================
+INTEGRACIONES WEB - ACTIVIDAD 2
+Módulo 2: Postman y estructura general de pruebas
+CONSIGNA:
+Obtener la habilidad primaria de Pikachu (segunda posición del array "abilities")
+usando la API pública PokeAPI.
+URL del endpoint utilizado:
+https://pokeapi.co/api/v2/pokemon/pikachu
+---------------------------------------------
+SCRIPT (pestaña "Test" de Postman):
+
+var JSONData = pm.response.json();
+console.log(JSONData.abilities[1].ability.name);
+
+---------------------------------------------
+RESULTADO EN CONSOLA:
+lightning-rod
+---------------------------------------------
+EXPLICACIÓN:
+1. pm.response.json()
+   Convierte la respuesta de la API en un objeto JSON
+   y lo guarda en la variable JSONData.
+
+2. JSONData.abilities[1]
+   Accede al array "abilities" y selecciona la segunda
+   posición (índice 1, ya que los arrays empiezan en 0).
+
+3. .ability.name
+   Dentro de ese objeto, accede al campo "ability"
+   y luego al campo "name" para obtener el nombre
+   de la habilidad.
+
+4. console.log(...)
+   Imprime el resultado únicamente en la consola de Postman.
+
+=============================================
