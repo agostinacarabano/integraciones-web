@@ -15,9 +15,8 @@ Acá documento todo lo que voy aprendiendo sobre APIs REST, Postman y consumo de
 integraciones-web/
 ├── modulo-2/
 │   └── actividad2_integraciones_web.txt
-```
-
----
+├── Modulo_3/
+│   └── Actividad 3.png
 
 📚 Actividades
 
@@ -27,6 +26,11 @@ Módulo 2 — Postman y estructura general de pruebas
 | Descripción: Consulta a PokeAPI con Postman: obtener la habilidad primaria de Pikachu usando un script en la pestaña Test|
 | Archivo: [ver archivo](./modulo-2/actividad2_integraciones_web.txt) |
 
+Módulo 3 — Newman e Integración Continua
+
+| Actividad: Actividad 3 |
+| Descripción: Ejecución de colección de Postman desde Newman para Integración Continua (CI) |
+| Archivo: [ver archivo](./Modulo_3/Actividad_3.png) |
 ---
 
 💡 ¿Qué aprendí en esta materia?
